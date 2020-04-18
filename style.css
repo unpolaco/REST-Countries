@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+  line-height: 25px;
+}
+body {
+  margin: 0, auto;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-color: rgb(167, 184, 201);
+  padding: 15px;
+}
+span {
+  font-weight: bold;
+}
+select {
+  font-size: 20px;
+  line-height: 30px;
+  background-color: rgb(216, 224, 235);
+  margin: 15px 0;
+}
